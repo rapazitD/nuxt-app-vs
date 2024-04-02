@@ -1,18 +1,21 @@
 <template>
-  <div class="w-[345px] h-[376px] p-6 bg-slate-800 bg-opacity-90 rounded-[30px] border border-white border-opacity-20 flex-col justify-start items-center gap-6 inline-flex">
-    <div class="w-[85px] h-[88px] relative">
-      <div class="w-[61.04px] h-[69px] left-[12px] top-[9px] absolute">
-      </div>
+  <div class="w-[345px] flex flex-col p-6 mt-[104px] rounded-[30px] md:w-[688px] md:flex-row md:justify-start md:gap-6 md:mt-[100px] xl:w-[1090px] xl:gap-10 xl:mt-[54px]">
+    <div class="gap-6 flex justify-center">
+      <LogoNoText class="size-[85px] md:size-[152px]"/>
     </div>
-    <div class="self-stretch h-[216px] flex-col justify-start items-start gap-4 flex">
-      <div class="self-stretch text-center text-white text-2xl font-bold font-['Rubik']">About Vue School corporate training</div>
-      <div class="self-stretch text-center text-violet-50 text-sm font-normal font-['Rubik'] leading-normal">School is the #1 training resource for Vue.js and has provided the most comprehensive Vue.js video library in the world to over 140,000 developers. Private individuals and small to enterprise companies have used our services to develop their skills since 2016. </div>
+    <div class="w-full flex flex-col gap-4 text-center md:text-left md:gap-8">
+      <h2 class="text-2xl text-white font-bold md:text-[40px]">
+        About Vue School corporate training
+      </h2>
+      <p class="text-sm leading-6 font-normal text-lightGray md:text-[22px] md:leading-[30px]">
+        School is the #1 training resource for Vue.js and has provided the most comprehensive Vue.js video library in the world to over 140,000 developers. Private individuals and small to enterprise companies have used our services to develop their skills since 2016.
+      </p>
     </div>
   </div>
 </template>
 
 <script setup>
-
+import LogoNoText from '../public/assets/logo/logo-no-text.svg'
 </script>
 
 <style scoped>
