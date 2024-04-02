@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-[99px] px-12 py-5 bg-gray-800 bg-opacity-90 backdrop-blur-[20px] sm:justify-between items-center inline-flex">
+  <div class="w-full h-[99px] px-12 py-5 sm:justify-between items-center inline-flex">
     <div class="w-[26px] h-[24px] mr-6 md:hidden">
       <HamburgerMenu />
     </div>
@@ -26,11 +26,10 @@
       <div class="text-center text-white text-base font-normal font-['Rubik']">
         Log in
       </div>
-      <div class="px-10 py-5 rounded-[10px] border-2 border-emerald-500 justify-center items-center gap-3 flex">
-        <div class="text-center text-emerald-500 text-base font-medium font-['Rubik']">
-          Sing up
-        </div>
-      </div>
+      <ButtonComponent
+          btn-name="Sing up"
+          :borderBtn="true"
+      />
     </div>
   </div>
 </template>
@@ -51,7 +50,6 @@
     {name: 'Articles', path: '/articles', dropdown: false},
     {name: 'Get Certified', path: '/getCertified', dropdown: false},
   ]
-
 </script>
 
 <style scoped>

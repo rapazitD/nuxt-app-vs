@@ -14,8 +14,13 @@ export default defineNuxtConfig({
       meta: [
         {name: 'description', content: 'The prefect  place to learn Vue and Nuxt'}
       ]
-
     }
-
-  }
+  },
+  css: ['./public/css/main.css'],
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
 })

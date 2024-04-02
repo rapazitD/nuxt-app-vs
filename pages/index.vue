@@ -1,6 +1,6 @@
 <template>
-  <div>
-
+  <div class="flex justify-center">
+      <HeroComponent />
   </div>
 </template>
 
@@ -8,6 +8,6 @@
 
 </script>
 
-<style scoped>
+<style>
 
 </style>
