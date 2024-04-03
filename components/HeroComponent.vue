@@ -13,7 +13,6 @@
     </div>
     <PeopleImage class="md:w-[602px] xl:pt-8"/>
   </div>
-
 </template>
 
 <script setup>
