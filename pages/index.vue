@@ -2,6 +2,7 @@
   <div class="flex flex-col justify-center items-center">
       <HeroComponent/>
       <InfoSection/>
+      <Google class="max-xl:hidden"/>
       <Statistics/>
   </div>
 </template>

@@ -14,7 +14,7 @@
 
 <script setup>
 import loadSvgComponent from "~/utils/loadSvgComponent.js";
-const iconComponent = ref(null);
+const iconComponent = shallowRef(null);
 
 const props = defineProps({
   number: {
