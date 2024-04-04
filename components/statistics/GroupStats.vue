@@ -32,7 +32,7 @@ const props = defineProps({
 })
 
 onMounted(async () => {
-  iconComponent.value = await loadSvgComponent(props.iconName);
+  iconComponent.value = await loadSvgComponent(props.iconName, 'statistics');
 });
 </script>
 

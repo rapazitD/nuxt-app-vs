@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col items-center gap-8 leading-[normal] w-[345px] mt-[120px] md:w-[570px] md:gap-[29px] md:mt-[140px] xl:w-[1165px] xl:justify-between xl:flex-row xl:gap-[auto] xl:mt-[180px]">
+  <div class="flex flex-col items-center gap-8 leading-[normal] mt-[120px] md:w-[570px] md:gap-[29px] md:mt-[140px] xl:w-[1165px] xl:justify-between xl:flex-row xl:gap-[auto] xl:mt-[180px]">
     <div class="flex flex-col items-center gap-[13px] text-center xl:text-left xl:items-start xl:w-[570px]">
       <p class="font-medium bg-gradient-to-r from-green to-[#00F0FF] text-transparent bg-clip-text md:text-2xl xl:text-left">
         YOUR #1 SOURCE OF VUE.JS COURSES

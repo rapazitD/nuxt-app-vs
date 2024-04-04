@@ -1,5 +1,5 @@
 <template>
-  <div class="w-[345px] flex flex-col p-6 mt-[104px] rounded-[30px] md:w-[688px] md:flex-row md:justify-start md:gap-6 md:mt-[100px] xl:w-[1170px] xl:gap-10 xl:mt-[54px]">
+  <div class="flex flex-col p-6 mt-[104px] rounded-[30px] md:w-[688px] md:flex-row md:justify-start md:gap-6 md:mt-[100px] xl:w-[1170px] xl:gap-10 xl:mt-[54px]">
     <div class="gap-6 flex justify-center">
       <LogoNoText class="size-[85px] md:size-[152px]"/>
     </div>

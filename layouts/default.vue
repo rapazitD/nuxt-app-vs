@@ -5,7 +5,7 @@
         <Menu/>
       </header>
     </div>
-    <div>
+    <div class="items-center flex flex-col">
       <slot />
     </div>
   </div>
