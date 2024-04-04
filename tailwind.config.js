@@ -17,6 +17,9 @@ export default {
         'green': '#0BD88F',
         'lightGray': '#F3F5FF'
       },
+      screens: {
+        'xl': '1440px',
+      },
     },
   },
   plugins: [],

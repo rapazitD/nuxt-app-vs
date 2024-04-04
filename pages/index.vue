@@ -17,12 +17,14 @@
             :card-index="key"
       />
     </div>
-    <TrainingCard/>
+    <TrainingComponent/>
     <div class="h-40"></div>
   </div>
 </template>
 
 <script setup>
+import TrainingComponent from "~/components/TrainingComponent.vue";
+
 const cardObj = [
   {
     title: 'Basic',
