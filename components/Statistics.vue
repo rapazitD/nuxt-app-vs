@@ -9,15 +9,30 @@
       </h1>
     </div>
     <div class="flex justify-start items-start content-start gap-6 flex-wrap md:gap-[61px] xl:content-start xl:flex-none xl:w-[516px]">
-      <GroupStats icon-name="play-icon" text="Video lessons" number="763"/>
-      <GroupStats icon-name="book-icon" text="Courses" number="40"/>
-      <GroupStats icon-name="watch-icon" text="15 Hours" number="64"/>
+      <GroupStats icon-name="play-icon" text="Video lessons" :number="videos"/>
+      <GroupStats icon-name="book-icon" text="Courses" :number="courses"/>
+      <GroupStats icon-name="watch-icon" text="15 Hours" :number="hours"/>
     </div>
   </div>
 </template>
 
 <script setup>
 import GroupStats from "~/components/statistics/GroupStats.vue";
+
+defineProps({
+  videos: {
+    type: Number,
+    required: true
+  },
+  courses: {
+    type: Number,
+    required: true
+  },
+  hours: {
+    type: Number,
+    required: true
+  }
+});
 </script>
 
 <style scoped>

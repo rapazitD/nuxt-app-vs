@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: [ '@nuxtjs/tailwindcss', 'nuxt-svgo' ],
+  modules: ['@nuxtjs/tailwindcss', 'nuxt-svgo', "@nuxtjs/sanity"],
   svgo: {
     defaultImport: 'component'
   },
@@ -23,4 +23,8 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  sanity: {
+    projectId: '7ld6v94p',
+    dataset: 'cms-nuxt-vs'
+  }
 })
