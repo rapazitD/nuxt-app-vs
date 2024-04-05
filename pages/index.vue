@@ -18,6 +18,7 @@
       />
     </div>
     <TrainingComponent/>
+    <FooterComponent/>
     <div class="h-40"></div>
   </div>
 </template>
